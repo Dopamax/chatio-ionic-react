@@ -1,0 +1,7 @@
+{
+  "name": "chatio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
