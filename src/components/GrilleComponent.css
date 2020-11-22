@@ -1,0 +1,27 @@
+.mon-avatar{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 30px;
+    border: solid 1px #145423;
+}
+
+.mon-card{
+    border-radius: 10px;
+    background-color: rgba(90, 254, 25, 0.200);
+    border: solid 2px #145423;
+}
+.c-name{
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-left: 5px;
+    font-family: Century Gothic;
+    font-size: medium;
+    font-weight: bold;
+    border: solid 1px #f54906;
+    border-radius: 30px;
+    background-color: rgba(90, 254, 25, 0.438);
+}
+.c-layout{
+    background-color: #90ec9860;
+    padding-bottom: 70px;
+}

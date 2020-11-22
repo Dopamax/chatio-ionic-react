@@ -1,11 +1,11 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
-import MyHeader from '../components/MyHeader';
+//import MySegment from '../components/MySegment';
+import { GrilleComponent } from '../components/GrilleComponent';
 import MySegment from '../components/MySegment';
 
-const Home: React.FC = () => {
+const NowPage: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -16,14 +16,14 @@ const Home: React.FC = () => {
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Now</IonTitle>
           </IonToolbar>
         </IonHeader>
-          <MySegment />
-          
+        <MySegment />
+          <GrilleComponent />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default NowPage;
